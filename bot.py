@@ -126,5 +126,14 @@ def main():
     print(f"Finished. New events: {len(found)}")
 
 
+
 if __name__ == "__main__":
-    main()
+    if os.environ.get("TEST_TELEGRAM") == "1":
+        send_message(
+            "✅ Solana Alert Bot 测试成功！\n"
+            "Telegram 推送正常，机器人已连接到你的私密频道。"
+        )
+        print("Telegram test message sent.")
+    else:
+        main()
+
