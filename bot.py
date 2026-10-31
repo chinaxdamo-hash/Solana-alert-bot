@@ -663,47 +663,29 @@ def paper_cycle():
 
 
 def main():
+    """Run one monitoring cycle, then exit for GitHub Actions."""
     if not BOT_TOKEN or not CHAT_ID:
         raise RuntimeError(
             "Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID"
         )
 
     seen = load_set(STATE_FILE)
-
     initialized_sources = load_set(SOURCE_FILE)
 
-    # Existing GitHub state means the bot has already been initialized.
+    # Existing event state means the bot has already been initialized.
     if seen and not initialized_sources:
         initialized_sources.update(API_URLS.keys())
 
-    print("Solana Alert Bot started.")
+    print("Solana Alert Bot: starting one cycle.")
 
-    print(f"Monitoring every {POLL_INTERVAL} seconds.")
+    try:
+        monitor_once(seen, initialized_sources)
+        paper_cycle()
+    except Exception as error:
+        print(f"Monitoring cycle error: {error}")
+        raise
 
-    while True:
-
-        cycle_start = time.monotonic()
-
-        try:
-            monitor_once(seen, initialized_sources)
-
-            paper_cycle()
-
-        except Exception as error:
-            print(f"Monitoring error: {error}")
-
-        elapsed = time.monotonic() - cycle_start
-
-        sleep_time = max(
-            5,
-            POLL_INTERVAL - elapsed
-        )
-
-        print(
-            f"Next check in {sleep_time:.0f} seconds."
-        )
-
-        time.sleep(sleep_time)
+    print("Solana Alert Bot: cycle completed; exiting.")
 
 
 if __name__ == "__main__":
