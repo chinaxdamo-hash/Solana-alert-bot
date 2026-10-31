@@ -117,7 +117,33 @@
     "pair_address": "EQKaTKwihF2hYoMdwTQQo6E1xt5RVYLsoqZiUEAgUAdq",
     "entry_price": 0.0001663,
     "entry_time": 1793476370.7324202,
-    "last_price": 0.0001663,
+    "last_price": 1.85e-06,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 1.85e-06,
+    "exit_time": 1793487659.0837474,
+    "gross_pct": -98.88755261575466,
+    "net_pct": -100.38755261575466,
+    "net_sol": -0.10038755261575467,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "Jy8kKwumNBdg3VtpvkzKh22kLQSw57Zr8sfdSSjpump",
+    "symbol": "INKKY",
+    "pair_address": "9gd9BAQNkBfVDUmcfph42ozWTjmQHfTU6hFrmq5G6ymQ",
+    "entry_price": 0.0001078,
+    "entry_time": 1793487660.074675,
+    "last_price": 0.0001078,
+    "status": "open",
+    "stake_sol": 0.1
+  },
+  {
+    "token": "DZrVCDqSyUBFoFJWJCVELhzL4cTFYWpCMirnv91TTTSH",
+    "symbol": "CHUDBOB",
+    "pair_address": "BofnrEjYo9CKBXqUXgGpMsawA38dkGs2ye6Yo8MVvWHB",
+    "entry_price": 9.93e-05,
+    "entry_time": 1793487660.9217515,
+    "last_price": 9.93e-05,
     "status": "open",
     "stake_sol": 0.1
   }
