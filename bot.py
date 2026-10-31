@@ -6,8 +6,12 @@ import urllib.request
 import urllib.parse
 import urllib.error
 
-BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
-CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+
+POLL_INTERVAL = 60
+STATE_FILE = "seen_events.json"
+SOURCE_FILE = "initialized_sources.json"
 
 API_URLS = {
     "CTO": "https://api.dexscreener.com/community-takeovers/latest/v1",
@@ -15,22 +19,19 @@ API_URLS = {
     "ADS": "https://api.dexscreener.com/ads/latest/v1",
 }
 
-STATE_FILE = "seen_events.json"
-
 
 def get_json(url):
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "Solana-Alert-Bot/1.0"}
+        headers={"User-Agent": "Solana-Alert-Bot/2.0"}
     )
     with urllib.request.urlopen(request, timeout=20) as response:
         return json.loads(response.read().decode("utf-8"))
 
 
 def send_message(message):
-    url = (
-        f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-    )
+    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+
     data = urllib.parse.urlencode({
         "chat_id": CHAT_ID,
         "text": message,
@@ -38,6 +39,7 @@ def send_message(message):
     }).encode("utf-8")
 
     request = urllib.request.Request(url, data=data)
+
     with urllib.request.urlopen(request, timeout=20) as response:
         result = json.loads(response.read().decode("utf-8"))
 
@@ -45,90 +47,163 @@ def send_message(message):
         raise RuntimeError("Telegram message failed")
 
 
-def load_seen():
+def load_set(filename):
     try:
-        with open(STATE_FILE, "r", encoding="utf-8") as file:
+        with open(filename, "r", encoding="utf-8") as file:
             return set(json.load(file))
-    except (OSError, ValueError):
+    except (OSError, ValueError, TypeError):
         return set()
 
 
-def save_seen(seen):
-    with open(STATE_FILE, "w", encoding="utf-8") as file:
-        json.dump(sorted(seen), file)
+def save_set(filename, values):
+    temporary_file = filename + ".tmp"
+
+    with open(temporary_file, "w", encoding="utf-8") as file:
+        json.dump(sorted(values), file)
+
+    os.replace(temporary_file, filename)
 
 
-def main():
-    seen = load_seen()
+def make_event_id(event_type, item):
+    address = item.get("tokenAddress", "")
+    date = item.get("date", "")
 
-    # First run: record existing events to avoid flooding the channel.
-    first_run = not seen
-    found = []
+    if not address:
+        return None
 
+    return f"{event_type}:{address}:{date}"
+
+
+def make_message(event_type, item, address):
+    name = (
+        item.get("description")
+        or item.get("symbol")
+        or "Unknown"
+    )
+
+    message = (
+        f"🔔 Solana {event_type} Alert\n\n"
+        f"🪙 {name}\n"
+        f"📍 {address}\n"
+        f"🔗 https://dexscreener.com/solana/{address}"
+    )
+
+    socials = []
+
+    for link in item.get("links", []):
+        if isinstance(link, dict) and link.get("url"):
+            socials.append(link["url"])
+
+    if socials:
+        message += "\n\n" + "\n".join(socials[:5])
+
+    return message
+
+
+def monitor_once(seen, initialized_sources):
     for event_type, url in API_URLS.items():
         try:
             data = get_json(url)
+
             if not isinstance(data, list):
-                continue
+                raise ValueError("Unexpected API response")
+
+            new_count = 0
 
             for item in data:
+                if not isinstance(item, dict):
+                    continue
+
                 if item.get("chainId") != "solana":
                     continue
 
                 address = item.get("tokenAddress", "")
-                if not address:
-                    continue
+                event_id = make_event_id(event_type, item)
 
-                event_id = (
-                    f"{event_type}:{address}:"
-                    f"{item.get('date', '')}"
-                )
+                if not address or not event_id:
+                    continue
 
                 if event_id in seen:
                     continue
 
-                seen.add(event_id)
+                # First successful check for this source:
+                # record existing events without sending old alerts.
+                if event_type not in initialized_sources:
+                    seen.add(event_id)
+                    continue
 
-                if not first_run:
-                    found.append((event_type, item, address))
+                message = make_message(
+                    event_type, item, address
+                )
+
+                try:
+                    send_message(message)
+
+                    # Only mark an event as seen after successful delivery.
+                    seen.add(event_id)
+                    new_count += 1
+
+                    save_set(STATE_FILE, seen)
+
+                    print(f"Sent {event_type}: {address}")
+
+                except Exception as error:
+                    print(
+                        f"Telegram error for {address}: {error}"
+                    )
+
+            initialized_sources.add(event_type)
+
+            save_set(STATE_FILE, seen)
+            save_set(SOURCE_FILE, initialized_sources)
+
+            print(
+                f"{event_type} checked. "
+                f"New messages sent: {new_count}"
+            )
 
         except Exception as error:
             print(f"{event_type} API error: {error}")
 
         time.sleep(1)
 
-    for event_type, item, address in found:
-        name = item.get("description") or item.get("symbol") or "Unknown"
-        links = item.get("links", [])
-        socials = []
 
-        for link in links:
-            if isinstance(link, dict) and link.get("url"):
-                socials.append(link["url"])
-
-        message = (
-            f"🔔 Solana {event_type} Alert\n\n"
-            f"🪙 {name}\n"
-            f"📍 {address}\n"
-            f"🔗 https://dexscreener.com/solana/{address}"
+def main():
+    if not BOT_TOKEN or not CHAT_ID:
+        raise RuntimeError(
+            "Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID"
         )
 
-        if socials:
-            message += "\n\n" + "\n".join(socials[:5])
+    seen = load_set(STATE_FILE)
+    initialized_sources = load_set(SOURCE_FILE)
+
+    # Existing GitHub state means the bot has already been initialized.
+    if seen and not initialized_sources:
+        initialized_sources.update(API_URLS.keys())
+
+    print("Solana Alert Bot started.")
+    print(f"Monitoring every {POLL_INTERVAL} seconds.")
+
+    while True:
+        cycle_start = time.monotonic()
 
         try:
-            send_message(message)
-            print(f"Sent {event_type}: {address}")
+            monitor_once(seen, initialized_sources)
         except Exception as error:
-            print(f"Telegram send error: {error}")
+            print(f"Monitoring error: {error}")
 
-    save_seen(seen)
-    print(f"Finished. New events: {len(found)}")
+        elapsed = time.monotonic() - cycle_start
+        sleep_time = max(5, POLL_INTERVAL - elapsed)
 
+        print(f"Next check in {sleep_time:.0f} seconds.")
+        time.sleep(sleep_time)
 
 
 if __name__ == "__main__":
-    if os.environ.get("TEST_TELEGRAM") == "1":
+    if os.getenv("TEST_TELEGRAM") == "1":
+        if not BOT_TOKEN or not CHAT_ID:
+            raise RuntimeError("Telegram credentials are missing")
+
         send_message(
             "✅ Solana Alert Bot 测试成功！\n"
             "Telegram 推送正常，机器人已连接到你的私密频道。"
@@ -136,4 +211,3 @@ if __name__ == "__main__":
         print("Telegram test message sent.")
     else:
         main()
-
