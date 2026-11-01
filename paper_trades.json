@@ -181,7 +181,23 @@
     "pair_address": "Fdg5gLmW3Dyh7jcXTNUCPTZFNskiiGWboXv9TRuqGDgL",
     "entry_price": 6.568e-05,
     "entry_time": 1793549355.7448146,
-    "last_price": 6.568e-05,
+    "last_price": 1.852e-05,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 1.852e-05,
+    "exit_time": 1793565069.3467968,
+    "gross_pct": -71.8026796589525,
+    "net_pct": -73.3026796589525,
+    "net_sol": -0.0733026796589525,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "8BxKRVNTRzM7LTJ9Q6rqKQFwXtMjZjjSNYNDyjLSpump",
+    "symbol": "BABYKIN",
+    "pair_address": "GMhJp7m2TSVugVWucRSwRFj4N9G7E7CeucLVSCKq4vX3",
+    "entry_price": 0.0001256,
+    "entry_time": 1793565071.331086,
+    "last_price": 0.0001256,
     "status": "open",
     "stake_sol": 0.1
   }
