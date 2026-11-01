@@ -174,5 +174,15 @@
     "net_pct": 283.68181818181813,
     "net_sol": 0.28368181818181815,
     "exit_reason": "止盈触发"
+  },
+  {
+    "token": "HSN4fgRP1yFXMzUjHbeXLQDEeU2m1aLyFjKgncvPLwdk",
+    "symbol": "PUMPATAR",
+    "pair_address": "Fdg5gLmW3Dyh7jcXTNUCPTZFNskiiGWboXv9TRuqGDgL",
+    "entry_price": 6.568e-05,
+    "entry_time": 1793549355.7448146,
+    "last_price": 6.568e-05,
+    "status": "open",
+    "stake_sol": 0.1
   }
 ]
