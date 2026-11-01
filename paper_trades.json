@@ -197,7 +197,23 @@
     "pair_address": "GMhJp7m2TSVugVWucRSwRFj4N9G7E7CeucLVSCKq4vX3",
     "entry_price": 0.0001256,
     "entry_time": 1793565071.331086,
-    "last_price": 0.0001256,
+    "last_price": 2.214e-06,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 2.214e-06,
+    "exit_time": 1793577111.667752,
+    "gross_pct": -98.2372611464968,
+    "net_pct": -99.7372611464968,
+    "net_sol": -0.09973726114649681,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "2pKpMwUQXNZeAf93LoomnZSworH3ezFzweCiuvrppump",
+    "symbol": "Anakinius",
+    "pair_address": "9FCA7K7oVCmFDdAjxtoDN4nNnuymskuodSV33LMELu5P",
+    "entry_price": 0.0002805,
+    "entry_time": 1793577113.043145,
+    "last_price": 0.0002805,
     "status": "open",
     "stake_sol": 0.1
   }
