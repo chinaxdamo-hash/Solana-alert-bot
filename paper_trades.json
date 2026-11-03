@@ -325,7 +325,33 @@
     "pair_address": "F6CGY3oCKofC8eq2jGe84rKbbjLjJ7crURc7ZBVG39Qx",
     "entry_price": 8.472e-05,
     "entry_time": 1793702709.1167321,
-    "last_price": 8.472e-05,
+    "last_price": 1.975e-06,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 1.975e-06,
+    "exit_time": 1793729172.6310098,
+    "gross_pct": -97.66879131255902,
+    "net_pct": -99.16879131255902,
+    "net_sol": -0.09916879131255904,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "6Mf55c5qvmf4xFwCUqWRNPp2T3J3J973hhJZckWxpump",
+    "symbol": "LUCIA",
+    "pair_address": "A7av8CRB8oE134QxsTRsXaJVxiWihto5KJSeeb1dkHB4",
+    "entry_price": 8.142e-05,
+    "entry_time": 1793729173.6099317,
+    "last_price": 8.142e-05,
+    "status": "open",
+    "stake_sol": 0.1
+  },
+  {
+    "token": "7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh",
+    "symbol": "HIGH",
+    "pair_address": "CqvMZmWDvEufa5rzkubidyR4zMDqDPoLjAtsW6wGsPMu",
+    "entry_price": 0.0001481,
+    "entry_time": 1793729174.3537567,
+    "last_price": 0.0001481,
     "status": "open",
     "stake_sol": 0.1
   }
