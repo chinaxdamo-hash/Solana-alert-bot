@@ -341,9 +341,15 @@
     "pair_address": "A7av8CRB8oE134QxsTRsXaJVxiWihto5KJSeeb1dkHB4",
     "entry_price": 8.142e-05,
     "entry_time": 1793729173.6099317,
-    "last_price": 8.142e-05,
-    "status": "open",
-    "stake_sol": 0.1
+    "last_price": 1.736e-06,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 1.736e-06,
+    "exit_time": 1793747865.5181565,
+    "gross_pct": -97.86784573814788,
+    "net_pct": -99.36784573814788,
+    "net_sol": -0.09936784573814789,
+    "exit_reason": "止损触发"
   },
   {
     "token": "7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh",
@@ -351,7 +357,23 @@
     "pair_address": "CqvMZmWDvEufa5rzkubidyR4zMDqDPoLjAtsW6wGsPMu",
     "entry_price": 0.0001481,
     "entry_time": 1793729174.3537567,
-    "last_price": 0.0001481,
+    "last_price": 0.0001052,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 0.0001052,
+    "exit_time": 1793747865.5181565,
+    "gross_pct": -28.966914247130315,
+    "net_pct": -30.466914247130315,
+    "net_sol": -0.030466914247130317,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "3MfZ4URVxmB4mfPuy4AxUxpcC5U7aXe7TDA7XVoGpump",
+    "symbol": "AMD",
+    "pair_address": "92iuo2CNfpgrzUYoMjyJe5WRMSLaujHit7AZxAgS8BdF",
+    "entry_price": 0.0003338,
+    "entry_time": 1793747867.4235396,
+    "last_price": 0.0003338,
     "status": "open",
     "stake_sol": 0.1
   }
