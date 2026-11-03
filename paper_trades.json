@@ -286,5 +286,25 @@
     "net_pct": -100.02735923869945,
     "net_sol": -0.10002735923869946,
     "exit_reason": "止损触发"
+  },
+  {
+    "token": "DAiwoNEeVefNzf9Tvt7gWmbnSpTzAydEqHvX4zoupump",
+    "symbol": "inu",
+    "pair_address": "EYAkvJACq1D6hfVzLXyvT5mMqLjikUT3pPgbd16N7rLt",
+    "entry_price": 0.0001536,
+    "entry_time": 1793674956.132715,
+    "last_price": 0.0001536,
+    "status": "open",
+    "stake_sol": 0.1
+  },
+  {
+    "token": "9LAu2WFQGV2FDSoa36S25LMmQSg5E2yUPT33j519pump",
+    "symbol": "MAGACREW",
+    "pair_address": "Gf5MhDgNq6Sf68mckjqfUMN9knv2G5tGmec7pGytNkPs",
+    "entry_price": 0.0001645,
+    "entry_time": 1793674956.7937827,
+    "last_price": 0.0001645,
+    "status": "open",
+    "stake_sol": 0.1
   }
 ]
