@@ -373,7 +373,33 @@
     "pair_address": "92iuo2CNfpgrzUYoMjyJe5WRMSLaujHit7AZxAgS8BdF",
     "entry_price": 0.0003338,
     "entry_time": 1793747867.4235396,
-    "last_price": 0.0003338,
+    "last_price": 2.032e-06,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 2.032e-06,
+    "exit_time": 1793761474.25348,
+    "gross_pct": -99.3912522468544,
+    "net_pct": -100.8912522468544,
+    "net_sol": -0.10089125224685441,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "37WT55retvbw33cx6NwHtwhpDCcU4twyg46BKFRrpump",
+    "symbol": "WOKE",
+    "pair_address": "75usrPzwD87iMV8wyvXndoZ6F9Nv4KYskpVLfU6N5Tcq",
+    "entry_price": 0.0001036,
+    "entry_time": 1793761475.381109,
+    "last_price": 0.0001036,
+    "status": "open",
+    "stake_sol": 0.1
+  },
+  {
+    "token": "GRWVAfwa6PJtWZtfG6jdu5vAVe4AckQiKT8Jsga6pump",
+    "symbol": "Pooliticians",
+    "pair_address": "Ez3PM1rwG7zwjRZirYKMuuuDLpsmLKoPzzawohziPTsM",
+    "entry_price": 0.0001859,
+    "entry_time": 1793761476.613832,
+    "last_price": 0.0001859,
     "status": "open",
     "stake_sol": 0.1
   }
