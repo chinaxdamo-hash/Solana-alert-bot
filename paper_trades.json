@@ -414,5 +414,25 @@
     "net_pct": -100.49139322216244,
     "net_sol": -0.10049139322216245,
     "exit_reason": "止损触发"
+  },
+  {
+    "token": "LWSYx94hV8NaFujStsqRZNsd1V8PkasADLTfiWjbfix",
+    "symbol": "FIX",
+    "pair_address": "G3FEDSLfXCcVUo96WWYTFWgvfQsgtqAmo9tddPNxEVFn",
+    "entry_price": 0.0001111,
+    "entry_time": 1793816181.0149722,
+    "last_price": 0.0001111,
+    "status": "open",
+    "stake_sol": 0.1
+  },
+  {
+    "token": "Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump",
+    "symbol": "george",
+    "pair_address": "B1T63LNtnyAiNFqwML7aoj3xeKCfR7coKF7nHgMvH8jQ",
+    "entry_price": 0.0003391,
+    "entry_time": 1793816181.7006407,
+    "last_price": 0.0003391,
+    "status": "open",
+    "stake_sol": 0.1
   }
 ]
