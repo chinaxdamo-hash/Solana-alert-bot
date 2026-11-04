@@ -389,9 +389,15 @@
     "pair_address": "75usrPzwD87iMV8wyvXndoZ6F9Nv4KYskpVLfU6N5Tcq",
     "entry_price": 0.0001036,
     "entry_time": 1793761475.381109,
-    "last_price": 0.0001036,
-    "status": "open",
-    "stake_sol": 0.1
+    "last_price": 1.854e-06,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 1.854e-06,
+    "exit_time": 1793789337.8624887,
+    "gross_pct": -98.21042471042472,
+    "net_pct": -99.71042471042472,
+    "net_sol": -0.09971042471042474,
+    "exit_reason": "止损触发"
   },
   {
     "token": "GRWVAfwa6PJtWZtfG6jdu5vAVe4AckQiKT8Jsga6pump",
@@ -399,8 +405,14 @@
     "pair_address": "Ez3PM1rwG7zwjRZirYKMuuuDLpsmLKoPzzawohziPTsM",
     "entry_price": 0.0001859,
     "entry_time": 1793761476.613832,
-    "last_price": 0.0001859,
-    "status": "open",
-    "stake_sol": 0.1
+    "last_price": 1.875e-06,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 1.875e-06,
+    "exit_time": 1793789337.8624887,
+    "gross_pct": -98.99139322216244,
+    "net_pct": -100.49139322216244,
+    "net_sol": -0.10049139322216245,
+    "exit_reason": "止损触发"
   }
 ]
