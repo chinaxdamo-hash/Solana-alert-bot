@@ -421,9 +421,15 @@
     "pair_address": "G3FEDSLfXCcVUo96WWYTFWgvfQsgtqAmo9tddPNxEVFn",
     "entry_price": 0.0001111,
     "entry_time": 1793816181.0149722,
-    "last_price": 0.0001111,
-    "status": "open",
-    "stake_sol": 0.1
+    "last_price": 0.0002057,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 0.0002057,
+    "exit_time": 1793836052.684164,
+    "gross_pct": 85.14851485148516,
+    "net_pct": 83.64851485148516,
+    "net_sol": 0.08364851485148517,
+    "exit_reason": "止盈触发"
   },
   {
     "token": "Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump",
@@ -431,7 +437,23 @@
     "pair_address": "B1T63LNtnyAiNFqwML7aoj3xeKCfR7coKF7nHgMvH8jQ",
     "entry_price": 0.0003391,
     "entry_time": 1793816181.7006407,
-    "last_price": 0.0003391,
+    "last_price": 8.632e-05,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 8.632e-05,
+    "exit_time": 1793836052.684164,
+    "gross_pct": -74.5443821881451,
+    "net_pct": -76.0443821881451,
+    "net_sol": -0.07604438218814509,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "4GMG7T7HvXhsYYTDHP9n1qT7jWiyaZky4jxSSwH7pump",
+    "symbol": "CASSO",
+    "pair_address": "CHxsx87tCY8y2brpUJQG8ChgxS33YtKDdwgcpKdF5Dai",
+    "entry_price": 0.0002857,
+    "entry_time": 1793836054.1625679,
+    "last_price": 0.0002857,
     "status": "open",
     "stake_sol": 0.1
   }
