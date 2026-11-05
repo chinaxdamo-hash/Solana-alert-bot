@@ -453,7 +453,33 @@
     "pair_address": "CHxsx87tCY8y2brpUJQG8ChgxS33YtKDdwgcpKdF5Dai",
     "entry_price": 0.0002857,
     "entry_time": 1793836054.1625679,
-    "last_price": 0.0002857,
+    "last_price": 0.0002191,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 0.0002191,
+    "exit_time": 1793850459.5600312,
+    "gross_pct": -23.311165558277914,
+    "net_pct": -24.811165558277914,
+    "net_sol": -0.024811165558277913,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "9FCjRfsuH4ziTqE39dH2wjcpRF5necYUKYpoNtCFdwKE",
+    "symbol": "MOSQUE",
+    "pair_address": "DzuDPmhorEgEKdLRVfXAQmVZCeEEEYhHyi2RaES6G5xG",
+    "entry_price": 0.000131,
+    "entry_time": 1793850460.642666,
+    "last_price": 0.000131,
+    "status": "open",
+    "stake_sol": 0.1
+  },
+  {
+    "token": "2z1XKwy3yBujFujGAztZubTEtayhYSaGfjM39uVMpump",
+    "symbol": "CI",
+    "pair_address": "DLvVgpemnfKnsgbqzaxwYArfLCTqkA9eyTd5imXNEprU",
+    "entry_price": 0.0001468,
+    "entry_time": 1793850461.559546,
+    "last_price": 0.0001468,
     "status": "open",
     "stake_sol": 0.1
   }
