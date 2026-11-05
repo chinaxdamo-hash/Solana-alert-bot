@@ -501,9 +501,15 @@
     "pair_address": "BYk5hEgFbDtXofQUkYtx7by6J6jXxSeUVJX36Y3ShTeP",
     "entry_price": 0.0002059,
     "entry_time": 1793878783.4755473,
-    "last_price": 0.0002059,
-    "status": "open",
-    "stake_sol": 0.1
+    "last_price": 2.592e-06,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 2.592e-06,
+    "exit_time": 1793905218.8162224,
+    "gross_pct": -98.74113647401651,
+    "net_pct": -100.24113647401651,
+    "net_sol": -0.10024113647401652,
+    "exit_reason": "止损触发"
   },
   {
     "token": "GpsEwFGmEhPHsobgJYuYnPcNtxc8EJi6CVRLZtYaVKj9",
@@ -511,7 +517,33 @@
     "pair_address": "8CvUH9gBLRs1yRvs8dBEiRzY2F7udoSMNPrwXRHxnpbL",
     "entry_price": 0.0001459,
     "entry_time": 1793878784.5229728,
-    "last_price": 0.0001459,
+    "last_price": 8.145e-06,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 8.145e-06,
+    "exit_time": 1793905218.8162224,
+    "gross_pct": -94.41740918437286,
+    "net_pct": -95.91740918437286,
+    "net_sol": -0.09591740918437287,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT",
+    "symbol": "COGE",
+    "pair_address": "BqDNqApJNmV3jgoeeYZ34zyxYa9pe3Msza59HoPUuBWM",
+    "entry_price": 0.0003484,
+    "entry_time": 1793905220.5096886,
+    "last_price": 0.0003484,
+    "status": "open",
+    "stake_sol": 0.1
+  },
+  {
+    "token": "GMdkBYSKJuWnqd4vGdSnxiELNQTPhMhvdCmPb77dpump",
+    "symbol": "Chewchan",
+    "pair_address": "H1MHbKjDPqRhCRCKQfDqX1KtieGDeEe9sKneMPSAcd8A",
+    "entry_price": 0.0001815,
+    "entry_time": 1793905221.4703403,
+    "last_price": 0.0001815,
     "status": "open",
     "stake_sol": 0.1
   }
