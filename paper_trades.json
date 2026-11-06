@@ -597,7 +597,23 @@
     "pair_address": "2JPbBFzPqyHgaavak5nGT38Y38j5wjK75ikpv3bkq7qV",
     "entry_price": 8.263e-05,
     "entry_time": 1793976003.6118703,
-    "last_price": 8.263e-05,
+    "last_price": 1.801e-06,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 1.801e-06,
+    "exit_time": 1793997446.8026204,
+    "gross_pct": -97.82040421154544,
+    "net_pct": -99.32040421154544,
+    "net_sol": -0.09932040421154545,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "CzwzQw6eGr9RjF3ZLmEPxcxspSk6csRg9Gpvsnycz5eD",
+    "symbol": "FUSE",
+    "pair_address": "B5oZhRDmdazrJoDSJSL9EQw6Fe9M46aG98bvXH3h1QNi",
+    "entry_price": 0.0001946,
+    "entry_time": 1793997447.59199,
+    "last_price": 0.0001946,
     "status": "open",
     "stake_sol": 0.1
   }
