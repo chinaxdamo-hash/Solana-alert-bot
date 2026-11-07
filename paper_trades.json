@@ -629,7 +629,23 @@
     "pair_address": "DzhvwyY7gCsAqdmxeYGiZjDnmPNAFJCu7DPT4GcqW2Da",
     "entry_price": 8.804e-05,
     "entry_time": 1794032367.6958451,
-    "last_price": 8.804e-05,
+    "last_price": 1.877e-06,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 1.877e-06,
+    "exit_time": 1794057693.2866652,
+    "gross_pct": -97.86801453884598,
+    "net_pct": -99.36801453884598,
+    "net_sol": -0.09936801453884599,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "CfL8KmoTngbNpmjAo1SD1udnJ1h2Rg23bng6WCbDpump",
+    "symbol": "farmsem",
+    "pair_address": "3ZZwFFsp6ZMamBq3JzVyedqdbxcL4meQxHfhJPhaz27o",
+    "entry_price": 0.0002439,
+    "entry_time": 1794057694.0642672,
+    "last_price": 0.0002439,
     "status": "open",
     "stake_sol": 0.1
   }
