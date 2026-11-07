@@ -661,9 +661,15 @@
     "pair_address": "9CqbXaGtnPuzGP62eeD3qgkhG6G9G1N71gDpRXgdBctp",
     "entry_price": 0.0001219,
     "entry_time": 1794074947.7318718,
-    "last_price": 0.0001219,
-    "status": "open",
-    "stake_sol": 0.1
+    "last_price": 1.709e-06,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 1.709e-06,
+    "exit_time": 1794088246.6850562,
+    "gross_pct": -98.5980311730927,
+    "net_pct": -100.0980311730927,
+    "net_sol": -0.10009803117309271,
+    "exit_reason": "止损触发"
   },
   {
     "token": "9pqtMh3DnydKbAvTp97N9ht1mkUB8wvvsTefg4KzM8se",
@@ -671,7 +677,23 @@
     "pair_address": "EP6NqC6HbMSz56NKWq2a4ZBUnmTf7cqzhuWH8LsYmF1c",
     "entry_price": 8.555e-05,
     "entry_time": 1794074949.0595515,
-    "last_price": 8.555e-05,
+    "last_price": 4.173e-05,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 4.173e-05,
+    "exit_time": 1794088246.6850562,
+    "gross_pct": -51.221507890122744,
+    "net_pct": -52.721507890122744,
+    "net_sol": -0.05272150789012275,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "7jXs2ff3dN4ZxngNADH3152Q2PNwMGg4mhTEZ7Rnpump",
+    "symbol": "HABIBI",
+    "pair_address": "BvTWD987TZjJEkTHecee2A2s7MjgDfKiQY2qiuaWv5SY",
+    "entry_price": 0.0002248,
+    "entry_time": 1794088248.1754003,
+    "last_price": 0.0002248,
     "status": "open",
     "stake_sol": 0.1
   }
