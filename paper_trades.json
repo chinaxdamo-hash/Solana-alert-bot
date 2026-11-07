@@ -622,5 +622,15 @@
     "net_pct": 101.27492291880783,
     "net_sol": 0.10127492291880785,
     "exit_reason": "止盈触发"
+  },
+  {
+    "token": "CuDaiesYbXQgAJsMowt61k6EhhS2sjbao3g9i3GMpump",
+    "symbol": "meme",
+    "pair_address": "DzhvwyY7gCsAqdmxeYGiZjDnmPNAFJCu7DPT4GcqW2Da",
+    "entry_price": 8.804e-05,
+    "entry_time": 1794032367.6958451,
+    "last_price": 8.804e-05,
+    "status": "open",
+    "stake_sol": 0.1
   }
 ]
