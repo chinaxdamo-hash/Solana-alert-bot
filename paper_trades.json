@@ -709,7 +709,33 @@
     "pair_address": "Hs5n9VP5obCAeyyBcTrV1T6LQrFLUPqaXZtSDkkRu7rw",
     "entry_price": 0.0001272,
     "entry_time": 1794099520.4166703,
-    "last_price": 0.0001272,
+    "last_price": 0.0002663,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 0.0002663,
+    "exit_time": 1794122122.5809624,
+    "gross_pct": 109.35534591194971,
+    "net_pct": 107.85534591194971,
+    "net_sol": 0.10785534591194973,
+    "exit_reason": "止盈触发"
+  },
+  {
+    "token": "J1c4tDDUziWwZQ4D8c6kxuAXHg5hcBX8GTNFUEaBpump",
+    "symbol": "MI",
+    "pair_address": "ABmJcycubxyxo5wk5bz4YBC2nMU1e6hkhHBMJe2RxGH4",
+    "entry_price": 9.802e-05,
+    "entry_time": 1794122123.4779005,
+    "last_price": 9.802e-05,
+    "status": "open",
+    "stake_sol": 0.1
+  },
+  {
+    "token": "CdmzERuZnYQwqwa2rxtRjsMjDU6y6qrM5ez6n2mxpump",
+    "symbol": "GATOGLITCH",
+    "pair_address": "2UeABe4txR5Mchey6CkZvNcYCzH4mBVyQGTwWUbTkk1o",
+    "entry_price": 0.0004693,
+    "entry_time": 1794122124.3573716,
+    "last_price": 0.0004693,
     "status": "open",
     "stake_sol": 0.1
   }
