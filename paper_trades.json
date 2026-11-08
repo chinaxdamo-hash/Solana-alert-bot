@@ -693,7 +693,23 @@
     "pair_address": "BvTWD987TZjJEkTHecee2A2s7MjgDfKiQY2qiuaWv5SY",
     "entry_price": 0.0002248,
     "entry_time": 1794088248.1754003,
-    "last_price": 0.0002248,
+    "last_price": 1.704e-06,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 1.704e-06,
+    "exit_time": 1794099519.3370926,
+    "gross_pct": -99.24199288256229,
+    "net_pct": -100.74199288256229,
+    "net_sol": -0.1007419928825623,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV",
+    "symbol": "MAGGIE",
+    "pair_address": "Hs5n9VP5obCAeyyBcTrV1T6LQrFLUPqaXZtSDkkRu7rw",
+    "entry_price": 0.0001272,
+    "entry_time": 1794099520.4166703,
+    "last_price": 0.0001272,
     "status": "open",
     "stake_sol": 0.1
   }
