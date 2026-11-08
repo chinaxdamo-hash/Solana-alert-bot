@@ -757,7 +757,23 @@
     "pair_address": "ALUywhhvV5DaJncyru5HzzB7oMyhq9jE52n5yRAuBTEk",
     "entry_price": 0.0001638,
     "entry_time": 1794147776.8047788,
-    "last_price": 0.0001638,
+    "last_price": 0.0001485,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 0.0001485,
+    "exit_time": 1794164208.384869,
+    "gross_pct": -9.340659340659341,
+    "net_pct": -10.840659340659341,
+    "net_sol": -0.010840659340659342,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "5BeD1Uc3Rz2Eha5FqGEnVUpGRNRk8khkXLXQNxynPyTx",
+    "symbol": "STOKE",
+    "pair_address": "Cns3TxMp6kArSNUFdAiALUwZYPXvHWk6EVRMzXL2hoqz",
+    "entry_price": 0.0001615,
+    "entry_time": 1794164209.9871998,
+    "last_price": 0.0001615,
     "status": "open",
     "stake_sol": 0.1
   }
