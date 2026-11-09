@@ -782,5 +782,25 @@
     "net_pct": -72.42260061919504,
     "net_sol": -0.07242260061919505,
     "exit_reason": "止损触发"
+  },
+  {
+    "token": "Ca1tVaqW2MzXkqcseHB7P7b6q1xo1XeJLmiTGqkVpump",
+    "symbol": "Nvidiass",
+    "pair_address": "4jnMX8NRS2JtY4vTXupXrVWmBzWt9LcFcYikUUbDJshj",
+    "entry_price": 0.0001853,
+    "entry_time": 1794189885.9969318,
+    "last_price": 0.0001853,
+    "status": "open",
+    "stake_sol": 0.1
+  },
+  {
+    "token": "B32gQ1hRs6ZHG2Tv6N8PLtESBa1rcKufatp8gb38pump",
+    "symbol": "QUINN",
+    "pair_address": "2ZWUBjWSb7xArFasTf7XH859VCSfaMGMAMtJ3Y2vr6Yz",
+    "entry_price": 0.0001499,
+    "entry_time": 1794189887.1007235,
+    "last_price": 0.0001499,
+    "status": "open",
+    "stake_sol": 0.1
   }
 ]
