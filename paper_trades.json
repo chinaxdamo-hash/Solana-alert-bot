@@ -814,5 +814,15 @@
     "net_pct": -86.55670446964643,
     "net_sol": -0.08655670446964643,
     "exit_reason": "止损触发"
+  },
+  {
+    "token": "6USthxiSZFoCJWhd5bUTcStagAJ2rFd8q8SiF2kupump",
+    "symbol": "ORBIT",
+    "pair_address": "9jXtNZwzuk3Z2ieQoexeL39MLCQn8FecDqcyGMGHW97o",
+    "entry_price": 0.000377,
+    "entry_time": 1794255084.168185,
+    "last_price": 0.000377,
+    "status": "open",
+    "stake_sol": 0.1
   }
 ]
