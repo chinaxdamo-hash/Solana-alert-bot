@@ -821,7 +821,23 @@
     "pair_address": "9jXtNZwzuk3Z2ieQoexeL39MLCQn8FecDqcyGMGHW97o",
     "entry_price": 0.000377,
     "entry_time": 1794255084.168185,
-    "last_price": 0.000377,
+    "last_price": 1.637e-06,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 1.637e-06,
+    "exit_time": 1794278750.8634825,
+    "gross_pct": -99.5657824933687,
+    "net_pct": -101.0657824933687,
+    "net_sol": -0.1010657824933687,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "BCG1ksWvKySmgWEgy8BbYxqngMNYLH2JNrTcBVm5AESY",
+    "symbol": "GTA4",
+    "pair_address": "GFLwDV18D7q8J1VbXuvPk4RAyEsrKF7fEvzzLpRj66gA",
+    "entry_price": 0.0002804,
+    "entry_time": 1794278751.816155,
+    "last_price": 0.0002804,
     "status": "open",
     "stake_sol": 0.1
   }
