@@ -837,8 +837,14 @@
     "pair_address": "GFLwDV18D7q8J1VbXuvPk4RAyEsrKF7fEvzzLpRj66gA",
     "entry_price": 0.0002804,
     "entry_time": 1794278751.816155,
-    "last_price": 0.0002804,
-    "status": "open",
-    "stake_sol": 0.1
+    "last_price": 6.632e-06,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 6.632e-06,
+    "exit_time": 1794306624.6664023,
+    "gross_pct": -97.63480741797433,
+    "net_pct": -99.13480741797433,
+    "net_sol": -0.09913480741797434,
+    "exit_reason": "止损触发"
   }
 ]
