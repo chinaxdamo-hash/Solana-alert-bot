@@ -846,5 +846,15 @@
     "net_pct": -99.13480741797433,
     "net_sol": -0.09913480741797434,
     "exit_reason": "止损触发"
+  },
+  {
+    "token": "GYiLFfHeTgXiK5BKpHN6fvv68R6DKwK5rh3SGPvapump",
+    "symbol": "CHICAT",
+    "pair_address": "FsHRHnkYZFk8kcRheJUPbeL5Mw4HAgY4mCr37DoGprd7",
+    "entry_price": 0.0001981,
+    "entry_time": 1794420355.1811655,
+    "last_price": 0.0001981,
+    "status": "open",
+    "stake_sol": 0.1
   }
 ]
