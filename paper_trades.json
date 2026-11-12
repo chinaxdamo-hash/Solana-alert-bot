@@ -869,9 +869,15 @@
     "pair_address": "CRWCDWttGVRhm5oDFNgYF4AVaZx52HXpfXbhRRoqX7Ak",
     "entry_price": 0.0001398,
     "entry_time": 1794500461.2737963,
-    "last_price": 0.0001398,
-    "status": "open",
-    "stake_sol": 0.1
+    "last_price": 3.082e-05,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 3.082e-05,
+    "exit_time": 1794522102.6398726,
+    "gross_pct": -77.95422031473534,
+    "net_pct": -79.45422031473534,
+    "net_sol": -0.07945422031473534,
+    "exit_reason": "止损触发"
   },
   {
     "token": "7z3QB6D8xge7GzKZCsajvnLt8zqT1SvFonY9vZZmpump",
@@ -879,7 +885,23 @@
     "pair_address": "5nXngjPFULjTH6o3qSEuPT9wXdFAHnftg3LRH8ru96KR",
     "entry_price": 0.0001731,
     "entry_time": 1794500462.5306015,
-    "last_price": 0.0001731,
+    "last_price": 1.657e-06,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 1.657e-06,
+    "exit_time": 1794522102.6398726,
+    "gross_pct": -99.04274985557481,
+    "net_pct": -100.54274985557481,
+    "net_sol": -0.10054274985557482,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump",
+    "symbol": "plumber",
+    "pair_address": "HqyxyL1kgKijYfswbKR8tnTd1GX1AZbHFwRf3KJaqEq9",
+    "entry_price": 6.247e-05,
+    "entry_time": 1794522104.7073956,
+    "last_price": 6.247e-05,
     "status": "open",
     "stake_sol": 0.1
   }
