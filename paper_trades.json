@@ -862,5 +862,25 @@
     "net_pct": -100.7226148409894,
     "net_sol": -0.10072261484098939,
     "exit_reason": "止损触发"
+  },
+  {
+    "token": "2Er3UtbQGWyNgeKMyUs218i11Z6v4gtfgwmqoSNPpump",
+    "symbol": "AMD",
+    "pair_address": "CRWCDWttGVRhm5oDFNgYF4AVaZx52HXpfXbhRRoqX7Ak",
+    "entry_price": 0.0001398,
+    "entry_time": 1794500461.2737963,
+    "last_price": 0.0001398,
+    "status": "open",
+    "stake_sol": 0.1
+  },
+  {
+    "token": "7z3QB6D8xge7GzKZCsajvnLt8zqT1SvFonY9vZZmpump",
+    "symbol": "HUANG",
+    "pair_address": "5nXngjPFULjTH6o3qSEuPT9wXdFAHnftg3LRH8ru96KR",
+    "entry_price": 0.0001731,
+    "entry_time": 1794500462.5306015,
+    "last_price": 0.0001731,
+    "status": "open",
+    "stake_sol": 0.1
   }
 ]
