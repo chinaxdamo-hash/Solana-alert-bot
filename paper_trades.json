@@ -910,5 +910,15 @@
     "net_pct": 239.30358572114613,
     "net_sol": 0.23930358572114613,
     "exit_reason": "止盈触发"
+  },
+  {
+    "token": "91fxZsD9St9CFJJ8yDAwkFRmQVEdUP29E27ARrjapump",
+    "symbol": "DACAT",
+    "pair_address": "DWnfrFDmNoCru3WFLaKzs5CVsANsmNtSMcr2EDc6gsQU",
+    "entry_price": 0.0001599,
+    "entry_time": 1794591751.9183855,
+    "last_price": 0.0001599,
+    "status": "open",
+    "stake_sol": 0.1
   }
 ]
