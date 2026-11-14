@@ -926,5 +926,15 @@
     "net_pct": -100.54127579737336,
     "net_sol": -0.10054127579737336,
     "exit_reason": "止损触发"
+  },
+  {
+    "token": "4HwfkLiQtJYGUCb6Na9KVy6c8ScHjaJmgRXYpbghpump",
+    "symbol": "SWJ",
+    "pair_address": "J7tGG9QvJjFjYeyRkeTG6zCjF4GFZgbFa2S2cetNHuz4",
+    "entry_price": 7.618e-05,
+    "entry_time": 1794625006.974577,
+    "last_price": 7.618e-05,
+    "status": "open",
+    "stake_sol": 0.1
   }
 ]
