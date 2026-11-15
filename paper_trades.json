@@ -990,5 +990,25 @@
     "net_pct": -91.14136780650543,
     "net_sol": -0.09114136780650543,
     "exit_reason": "止损触发"
+  },
+  {
+    "token": "EwVUPKyysUxz1Ej2s6AczqqXjK8EwTNokCtvk38Xpump",
+    "symbol": "GTA",
+    "pair_address": "9hJeiFQ626xvpizGjUmAwRonFdvERcSURp3maXzFUjXC",
+    "entry_price": 0.0001162,
+    "entry_time": 1794774123.578861,
+    "last_price": 0.0001162,
+    "status": "open",
+    "stake_sol": 0.1
+  },
+  {
+    "token": "Cxrw8hPBcbboL18wLhHJCt1CfLe3JSdfofLrZ8ABpump",
+    "symbol": "NCAT",
+    "pair_address": "B5h5jqk28owRboHA2uGFeM3CKUh7iCaMNNeqjWs7x5Tz",
+    "entry_price": 8.385e-05,
+    "entry_time": 1794774124.6986394,
+    "last_price": 8.385e-05,
+    "status": "open",
+    "stake_sol": 0.1
   }
 ]
