@@ -949,9 +949,15 @@
     "pair_address": "A3jnjmkwicqKJNYdju2wa7APPmgX6AutthjtbyJcuGKx",
     "entry_price": 0.0004255,
     "entry_time": 1794704040.7221348,
-    "last_price": 0.0004255,
-    "status": "open",
-    "stake_sol": 0.1
+    "last_price": 0.0003931,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 0.0003931,
+    "exit_time": 1794728076.99996,
+    "gross_pct": -7.614571092831957,
+    "net_pct": -9.114571092831957,
+    "net_sol": -0.009114571092831958,
+    "exit_reason": "持仓超时"
   },
   {
     "token": "Acgs6mb4PC7tQbDm9T4EeTfNx3ZDh5fNSjHcHZQLpump",
@@ -959,7 +965,23 @@
     "pair_address": "6snurzpHuD5FqHApjYXdNZfzR6d7WKRXA1wsyU9MDrAw",
     "entry_price": 0.0001857,
     "entry_time": 1794704041.7284818,
-    "last_price": 0.0001857,
+    "last_price": 8.505e-05,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 8.505e-05,
+    "exit_time": 1794728076.99996,
+    "gross_pct": -54.20032310177706,
+    "net_pct": -55.70032310177706,
+    "net_sol": -0.05570032310177706,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+    "symbol": "HOGE",
+    "pair_address": "7CNC9gGegzEfFK8fLXiYUhdtMEeFPQZoND56U1Mxhnor",
+    "entry_price": 0.0002398,
+    "entry_time": 1794728078.4787934,
+    "last_price": 0.0002398,
     "status": "open",
     "stake_sol": 0.1
   }
