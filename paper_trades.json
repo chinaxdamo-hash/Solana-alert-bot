@@ -942,5 +942,25 @@
     "net_pct": -99.31701233919664,
     "net_sol": -0.09931701233919664,
     "exit_reason": "止损触发"
+  },
+  {
+    "token": "HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump",
+    "symbol": "HYGG",
+    "pair_address": "A3jnjmkwicqKJNYdju2wa7APPmgX6AutthjtbyJcuGKx",
+    "entry_price": 0.0004255,
+    "entry_time": 1794704040.7221348,
+    "last_price": 0.0004255,
+    "status": "open",
+    "stake_sol": 0.1
+  },
+  {
+    "token": "Acgs6mb4PC7tQbDm9T4EeTfNx3ZDh5fNSjHcHZQLpump",
+    "symbol": "USDC",
+    "pair_address": "6snurzpHuD5FqHApjYXdNZfzR6d7WKRXA1wsyU9MDrAw",
+    "entry_price": 0.0001857,
+    "entry_time": 1794704041.7284818,
+    "last_price": 0.0001857,
+    "status": "open",
+    "stake_sol": 0.1
   }
 ]
