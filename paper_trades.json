@@ -997,9 +997,15 @@
     "pair_address": "9hJeiFQ626xvpizGjUmAwRonFdvERcSURp3maXzFUjXC",
     "entry_price": 0.0001162,
     "entry_time": 1794774123.578861,
-    "last_price": 0.0001162,
-    "status": "open",
-    "stake_sol": 0.1
+    "last_price": 1.418e-06,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 1.418e-06,
+    "exit_time": 1794787647.6270678,
+    "gross_pct": -98.77969018932873,
+    "net_pct": -100.27969018932873,
+    "net_sol": -0.10027969018932874,
+    "exit_reason": "止损触发"
   },
   {
     "token": "Cxrw8hPBcbboL18wLhHJCt1CfLe3JSdfofLrZ8ABpump",
@@ -1007,7 +1013,33 @@
     "pair_address": "B5h5jqk28owRboHA2uGFeM3CKUh7iCaMNNeqjWs7x5Tz",
     "entry_price": 8.385e-05,
     "entry_time": 1794774124.6986394,
-    "last_price": 8.385e-05,
+    "last_price": 2.971e-05,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 2.971e-05,
+    "exit_time": 1794787647.6270678,
+    "gross_pct": -64.56768038163388,
+    "net_pct": -66.06768038163388,
+    "net_sol": -0.06606768038163388,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "C5X8tVbt8cGw7iaaEuAVGTxFVZ4uSjscmiUbVpVwpump",
+    "symbol": "CYBERDACITY",
+    "pair_address": "9iqd6n93rWEvk8KmWWw2fPBonSvfpkGHvDgpchVzSGXk",
+    "entry_price": 0.0001192,
+    "entry_time": 1794787650.416157,
+    "last_price": 0.0001192,
+    "status": "open",
+    "stake_sol": 0.1
+  },
+  {
+    "token": "GgDHtSGcXn5YrADnpsQSVHFAa5xLwVEuD7FWeRgvpump",
+    "symbol": "AI",
+    "pair_address": "96RoBEefW9fgNRfjbd7LnFnNGxmpvDh1wkpKhFbX4QwT",
+    "entry_price": 0.0001377,
+    "entry_time": 1794787651.4341743,
+    "last_price": 0.0001377,
     "status": "open",
     "stake_sol": 0.1
   }
