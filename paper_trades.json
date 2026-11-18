@@ -1102,5 +1102,15 @@
     "net_pct": -91.13317911434237,
     "net_sol": -0.09113317911434236,
     "exit_reason": "止损触发"
+  },
+  {
+    "token": "6vofxAisDWYuD2o9jfRD4EkvpL8gs2qVbgAzDsLypump",
+    "symbol": "GTA",
+    "pair_address": "EwXw3LoBzstK1QJ1jyh9r8yMTFwoSWeews4hpjSn6tUn",
+    "entry_price": 0.0001575,
+    "entry_time": 1795019659.8147979,
+    "last_price": 0.0001575,
+    "status": "open",
+    "stake_sol": 0.1
   }
 ]
