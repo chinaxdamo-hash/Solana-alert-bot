@@ -1118,5 +1118,25 @@
     "net_pct": -100.62571428571428,
     "net_sol": -0.10062571428571429,
     "exit_reason": "止损触发"
+  },
+  {
+    "token": "3hcJWcNvWJu3QBq6PiC8xavYQJJwBnr6adhdpHXppump",
+    "symbol": "FIONA",
+    "pair_address": "DLxUmNSQArWSegkberb1Hu531tseqWfNE5ixuESJCREN",
+    "entry_price": 0.0001286,
+    "entry_time": 1795124349.7335453,
+    "last_price": 0.0001286,
+    "status": "open",
+    "stake_sol": 0.1
+  },
+  {
+    "token": "EfFoZZgpDjJywmWqpA8Lqs5gC4NH6cj5N1G5D43vpump",
+    "symbol": "MANDY",
+    "pair_address": "59cbwcBVKAc5QxLvCUWZwzE7GSpBv4iMYGbtTT18G3q9",
+    "entry_price": 0.0002928,
+    "entry_time": 1795124357.8354373,
+    "last_price": 0.0002928,
+    "status": "open",
+    "stake_sol": 0.1
   }
 ]
