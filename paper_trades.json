@@ -1150,5 +1150,25 @@
     "net_pct": -101.04439890710383,
     "net_sol": -0.10104439890710383,
     "exit_reason": "止损触发"
+  },
+  {
+    "token": "C2As2w55q3V3snKVCyA3nZvmQJSx2NApM5SLK5krpump",
+    "symbol": "DYSON",
+    "pair_address": "JCAVnFvQPHoFcRWk9ZPtQ69AfajdfPxHLy5e8VtJz4Wf",
+    "entry_price": 0.0002738,
+    "entry_time": 1795200503.8593216,
+    "last_price": 0.0002738,
+    "status": "open",
+    "stake_sol": 0.1
+  },
+  {
+    "token": "EK7LMLF1VEGGBLsHqHE2w5dpGZhUz9JKbAPVz1u4pump",
+    "symbol": "BTC",
+    "pair_address": "D9Xzb1X4LZqsUyzPvgRsvgX4aK7A2YsKky59N5SU3Cu7",
+    "entry_price": 0.0002889,
+    "entry_time": 1795200505.0393257,
+    "last_price": 0.0002889,
+    "status": "open",
+    "stake_sol": 0.1
   }
 ]
