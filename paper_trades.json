@@ -1214,5 +1214,15 @@
     "net_pct": 79.75613346418056,
     "net_sol": 0.07975613346418058,
     "exit_reason": "止盈触发"
+  },
+  {
+    "token": "zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor",
+    "symbol": "SIDOOR",
+    "pair_address": "3peugE6Fm4fpaVvrV2KBFN3nvLbCGEhGoUXDDxAHuscR",
+    "entry_price": 0.000112,
+    "entry_time": 1795295310.580535,
+    "last_price": 0.000112,
+    "status": "open",
+    "stake_sol": 0.1
   }
 ]
