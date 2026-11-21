@@ -1157,9 +1157,15 @@
     "pair_address": "JCAVnFvQPHoFcRWk9ZPtQ69AfajdfPxHLy5e8VtJz4Wf",
     "entry_price": 0.0002738,
     "entry_time": 1795200503.8593216,
-    "last_price": 0.0002738,
-    "status": "open",
-    "stake_sol": 0.1
+    "last_price": 1.334e-06,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 1.334e-06,
+    "exit_time": 1795220570.1548655,
+    "gross_pct": -99.51278305332359,
+    "net_pct": -101.01278305332359,
+    "net_sol": -0.10101278305332359,
+    "exit_reason": "止损触发"
   },
   {
     "token": "EK7LMLF1VEGGBLsHqHE2w5dpGZhUz9JKbAPVz1u4pump",
@@ -1167,7 +1173,33 @@
     "pair_address": "D9Xzb1X4LZqsUyzPvgRsvgX4aK7A2YsKky59N5SU3Cu7",
     "entry_price": 0.0002889,
     "entry_time": 1795200505.0393257,
-    "last_price": 0.0002889,
+    "last_price": 1.324e-06,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 1.324e-06,
+    "exit_time": 1795220570.1548655,
+    "gross_pct": -99.5417099342333,
+    "net_pct": -101.0417099342333,
+    "net_sol": -0.10104170993423331,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump",
+    "symbol": "JENSEN",
+    "pair_address": "7fy71w6jdYias1W66SQscXvuUtYH2N29BKcGGALn4kXT",
+    "entry_price": 0.000488,
+    "entry_time": 1795220572.12801,
+    "last_price": 0.000488,
+    "status": "open",
+    "stake_sol": 0.1
+  },
+  {
+    "token": "4mE8dPH1RTqQBT5EPim5Ubt2v2wXZ9zgEDDWmL1o1EYu",
+    "symbol": "SBS",
+    "pair_address": "AszTn7GufCoDMJNFkCqGarc2BB6QniUP9hzy4j2pkkL2",
+    "entry_price": 0.0001019,
+    "entry_time": 1795220573.1151757,
+    "last_price": 0.0001019,
     "status": "open",
     "stake_sol": 0.1
   }
