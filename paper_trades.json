@@ -1221,7 +1221,23 @@
     "pair_address": "3peugE6Fm4fpaVvrV2KBFN3nvLbCGEhGoUXDDxAHuscR",
     "entry_price": 0.000112,
     "entry_time": 1795295310.580535,
-    "last_price": 0.000112,
+    "last_price": 0.0003012,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 0.0003012,
+    "exit_time": 1795310266.0860767,
+    "gross_pct": 168.92857142857144,
+    "net_pct": 167.42857142857144,
+    "net_sol": 0.16742857142857143,
+    "exit_reason": "止盈触发"
+  },
+  {
+    "token": "B1oGtkaVAVZkdtWV7SXrHnFkcWC1Kd45sYpy6RYTpump",
+    "symbol": "GRAUDIA",
+    "pair_address": "BVLQ2J9mWiEEfcV6e9m6PcaHdtFNHr3JEZbH4NYvaoow",
+    "entry_price": 0.0001205,
+    "entry_time": 1795310266.8513238,
+    "last_price": 0.0001205,
     "status": "open",
     "stake_sol": 0.1
   }
