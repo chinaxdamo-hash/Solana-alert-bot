@@ -1246,5 +1246,25 @@
     "net_pct": -100.31327800829875,
     "net_sol": -0.10031327800829876,
     "exit_reason": "止损触发"
+  },
+  {
+    "token": "3BcJ4SSCfbxDMrWcUDucyCWxMjmy4M2ECCtvxu86pump",
+    "symbol": "FSDV15",
+    "pair_address": "DXVpx5PnefCiLVMucmUxrX2x7MgSDMTggmQgiRA2zV6W",
+    "entry_price": 0.0003335,
+    "entry_time": 1795384587.72727,
+    "last_price": 0.0003335,
+    "status": "open",
+    "stake_sol": 0.1
+  },
+  {
+    "token": "5eiLc9r79PkJquiFvYWdXJYtGNRjTpzot8MR7Z4Ppump",
+    "symbol": "Wojak",
+    "pair_address": "5uYwk3bwWVD3QPTFeXzpAoAgUT62d5gtCdMKyhm94cZq",
+    "entry_price": 9.245e-05,
+    "entry_time": 1795384588.746691,
+    "last_price": 9.245e-05,
+    "status": "open",
+    "stake_sol": 0.1
   }
 ]
