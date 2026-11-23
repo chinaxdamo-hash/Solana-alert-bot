@@ -1278,5 +1278,25 @@
     "net_pct": -96.35235262303948,
     "net_sol": -0.09635235262303948,
     "exit_reason": "止损触发"
+  },
+  {
+    "token": "Gg4H3vNtAcWATHBJ4wWT1YPDdkYgBgARhaWUgMdnpump",
+    "symbol": "NVINU",
+    "pair_address": "8jauNLnYq8KMDqTxb7uhqNKfiMpG8EqhWPqPHApvvaDD",
+    "entry_price": 0.0002332,
+    "entry_time": 1795473391.6588607,
+    "last_price": 0.0002332,
+    "status": "open",
+    "stake_sol": 0.1
+  },
+  {
+    "token": "62QTa8TvNAoUz62V93hgdBkwJfYWQLcQ8qVMA9UPpump",
+    "symbol": "PONK",
+    "pair_address": "DVEpnLhWBKKtSGAKU6AvyLhAjHTjG5Xx6Bofj6N3Bh4W",
+    "entry_price": 0.000141,
+    "entry_time": 1795473392.2979102,
+    "last_price": 0.000141,
+    "status": "open",
+    "stake_sol": 0.1
   }
 ]
