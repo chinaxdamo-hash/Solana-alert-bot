@@ -1310,5 +1310,25 @@
     "net_pct": -100.51702127659574,
     "net_sol": -0.10051702127659574,
     "exit_reason": "止损触发"
+  },
+  {
+    "token": "6jmhyHEy1rDyYHyRkr1rbVVQnckKpMYWh3zoX7zLpump",
+    "symbol": "CHRISTMAS",
+    "pair_address": "3UTNVf1p2hKghchPbePADbnoUtdfDAb1VPnuTbg4kMZ2",
+    "entry_price": 0.0002254,
+    "entry_time": 1795543660.2711053,
+    "last_price": 0.0002254,
+    "status": "open",
+    "stake_sol": 0.1
+  },
+  {
+    "token": "55RwtHpoNB81SgfiNvogeZTMfik2SfMGa5FaxKcXpump",
+    "symbol": "Holders",
+    "pair_address": "LBgqGiqx81AaVbCg8tdvPFfKuk6rzKZmvqFzHiYoPN1",
+    "entry_price": 9.675e-05,
+    "entry_time": 1795543660.9141576,
+    "last_price": 9.675e-05,
+    "status": "open",
+    "stake_sol": 0.1
   }
 ]
