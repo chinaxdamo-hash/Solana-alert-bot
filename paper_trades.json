@@ -1317,9 +1317,15 @@
     "pair_address": "3UTNVf1p2hKghchPbePADbnoUtdfDAb1VPnuTbg4kMZ2",
     "entry_price": 0.0002254,
     "entry_time": 1795543660.2711053,
-    "last_price": 0.0002254,
-    "status": "open",
-    "stake_sol": 0.1
+    "last_price": 7.526e-05,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 7.526e-05,
+    "exit_time": 1795573443.4226973,
+    "gross_pct": -66.61047027506655,
+    "net_pct": -68.11047027506655,
+    "net_sol": -0.06811047027506655,
+    "exit_reason": "止损触发"
   },
   {
     "token": "55RwtHpoNB81SgfiNvogeZTMfik2SfMGa5FaxKcXpump",
@@ -1327,7 +1333,23 @@
     "pair_address": "LBgqGiqx81AaVbCg8tdvPFfKuk6rzKZmvqFzHiYoPN1",
     "entry_price": 9.675e-05,
     "entry_time": 1795543660.9141576,
-    "last_price": 9.675e-05,
+    "last_price": 8.606e-05,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 8.606e-05,
+    "exit_time": 1795573443.4226973,
+    "gross_pct": -11.049095607235138,
+    "net_pct": -12.549095607235138,
+    "net_sol": -0.012549095607235139,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump",
+    "symbol": "PERRO",
+    "pair_address": "4s1epXdedd7TY1UtJ7frou3saSxuG98os7HcPtNEu8WH",
+    "entry_price": 0.000182,
+    "entry_time": 1795573445.0037298,
+    "last_price": 0.000182,
     "status": "open",
     "stake_sol": 0.1
   }
