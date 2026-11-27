@@ -1397,7 +1397,23 @@
     "pair_address": "ASo1PdFe7jQWLT2vDt4Ry1qwubiTduQHwrwTSD2vV2PS",
     "entry_price": 0.0001394,
     "entry_time": 1795786723.9215286,
-    "last_price": 0.0001394,
+    "last_price": 1.917e-05,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 1.917e-05,
+    "exit_time": 1795818085.48047,
+    "gross_pct": -86.24820659971306,
+    "net_pct": -87.74820659971306,
+    "net_sol": -0.08774820659971307,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "2B5Kvj7fYFjowTW959yYzWVvKVwvWGUi9e96e3kMw7PB",
+    "symbol": "BLR",
+    "pair_address": "8GFBGfej9mUudQaNWps8SMw98CxBiH8J2DSdfoFqgpFP",
+    "entry_price": 0.0001122,
+    "entry_time": 1795818086.6139324,
+    "last_price": 0.0001122,
     "status": "open",
     "stake_sol": 0.1
   }
