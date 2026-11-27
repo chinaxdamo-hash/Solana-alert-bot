@@ -1390,5 +1390,15 @@
     "net_pct": -99.90544013707432,
     "net_sol": -0.09990544013707434,
     "exit_reason": "止损触发"
+  },
+  {
+    "token": "7Y2CVbnqZRvR5RUvEJ9RQ73fZEfv7ybNcysytAepump",
+    "symbol": "WINSTON",
+    "pair_address": "ASo1PdFe7jQWLT2vDt4Ry1qwubiTduQHwrwTSD2vV2PS",
+    "entry_price": 0.0001394,
+    "entry_time": 1795786723.9215286,
+    "last_price": 0.0001394,
+    "status": "open",
+    "stake_sol": 0.1
   }
 ]
