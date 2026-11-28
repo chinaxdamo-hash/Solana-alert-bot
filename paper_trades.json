@@ -1413,7 +1413,33 @@
     "pair_address": "8GFBGfej9mUudQaNWps8SMw98CxBiH8J2DSdfoFqgpFP",
     "entry_price": 0.0001122,
     "entry_time": 1795818086.6139324,
-    "last_price": 0.0001122,
+    "last_price": 1.088e-05,
+    "status": "closed",
+    "stake_sol": 0.1,
+    "exit_price": 1.088e-05,
+    "exit_time": 1795838622.5689442,
+    "gross_pct": -90.30303030303031,
+    "net_pct": -91.80303030303031,
+    "net_sol": -0.09180303030303032,
+    "exit_reason": "止损触发"
+  },
+  {
+    "token": "8N6WF11pLUUeUu8b1HbnDJHTzyL4bbr8YRdPS6Znpump",
+    "symbol": "PRISMEICE",
+    "pair_address": "6ZXqJN9JCZxb7hnWYxijDs72jEnspsEUbo7BkL2K4jEb",
+    "entry_price": 0.0001768,
+    "entry_time": 1795838623.6658738,
+    "last_price": 0.0001768,
+    "status": "open",
+    "stake_sol": 0.1
+  },
+  {
+    "token": "APmirEVL5wkbYVZ88TDdr9cwJ6WfRCWuzm4wQWyzpump",
+    "symbol": "BTCBALLS",
+    "pair_address": "HaZ1AyKU3RoKaqQ8G5qHucE1M4Xb3ZCeU2WMWWYG4cvg",
+    "entry_price": 0.0004475,
+    "entry_time": 1795838624.7266412,
+    "last_price": 0.0004475,
     "status": "open",
     "stake_sol": 0.1
   }
